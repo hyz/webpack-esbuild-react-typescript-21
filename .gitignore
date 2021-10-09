@@ -7,9 +7,15 @@
 .pnp.*
 
 .vscode/launch.json
-dist/
-.env*
-!.env.example
 .webpack_cache
 
-node_modules
+**/*-lock.*
+**/*.lock
+**/node_modules
+**/dist
+**/target
+
+**/tmp
+**/dll
+
+!.env.example
